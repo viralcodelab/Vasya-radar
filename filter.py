@@ -23,6 +23,13 @@ class LeadFilter:
 
         text_lower = text.lower()
 
+        # Photoshop сам по себе не отсеивает объявление о сайте или интерфейсе.
+        website_context = any(term in text_lower for term in (
+            "сайт", "лендинг", "веб", "web", "ui/ux", "ui ux", "интерфейс", "figma"
+        ))
+        if "photoshop" in text_lower and not website_context:
+            return False
+
         # Проверка на минус-слова
         for negative_kw in self.negative:
             if negative_kw in text_lower:

@@ -65,7 +65,7 @@ class LeadUserbot:
                 chat_username = getattr(chat, 'username', None)
 
                 # Проверка, что сообщение из отслеживаемого канала
-                if not chat_username or chat_username not in self.channels:
+                if not chat_username or chat_username.lower() not in self.channels:
                     return
 
                 message_text = event.message.message
@@ -93,12 +93,16 @@ class LeadUserbot:
 
                     # Формирование данных лида
                     lead_data = {
+                        'id': event.message.id,
                         'category': category,
-                        'text': message_text[:300] + ('...' if len(message_text) > 300 else ''),
+                        'text': message_text,
                         'message_link': message_link,
                         'author_name': author_name,
-                        'author_link': author_link,
-                        'channel': f"@{chat_username}"
+                        'author_link': author_link or '@неизвестно',
+                        'channel': getattr(chat, 'title', None) or f"@{chat_username}",
+                        'channel_username': chat_username,
+                        'date': event.message.date,
+                        'potential_replies': 'N/A',
                     }
 
                     # Добавление в очередь для отправки через основной бот

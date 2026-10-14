@@ -1,0 +1,106 @@
+2026-10-11 18:09:13,888 - __main__ - INFO - ==================================================
+2026-10-11 18:09:13,888 - __main__ - INFO - Запуск Лид-Радар бота
+2026-10-11 18:09:13,889 - __main__ - INFO - ==================================================
+2026-10-11 18:09:14,433 - userbot - INFO - Загружено 10 каналов для мониторинга
+2026-10-11 18:09:14,908 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-10-11 18:09:14,908 - bot - INFO - Основной бот запущен
+2026-10-11 18:09:14,908 - aiogram.dispatcher - INFO - Start polling
+2026-10-11 18:09:15,118 - aiogram.dispatcher - INFO - Run polling for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:09:15,422 - aiogram.event - INFO - Update id=374252915 is handled. Duration 247 ms by bot id=8902728328
+2026-10-11 18:09:16,249 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-10-11 18:09:16,659 - telethon.client.users - INFO - Phone migrated to 4
+2026-10-11 18:09:16,718 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2026-10-11 18:09:16,922 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-10-11 18:09:16,923 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-10-11 18:09:16,923 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-10-11 18:09:18,708 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-10-11 18:09:19,166 - __main__ - ERROR - Критическая ошибка: EOF when reading a line
+Traceback (most recent call last):
+  File "D:\Сайти\Music plugin\lead-radar-bot\main.py", line 37, in main
+    await asyncio.gather(
+    ...<2 lines>...
+    )
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 148, in run
+    await self.start()
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 56, in start
+    await self.client.start(phone=PHONE_NUMBER)
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 187, in _start
+    value = code_callback()
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 102, in code_callback
+    return input('Please enter the code you received: ')
+EOFError: EOF when reading a line
+2026-10-11 18:09:19,168 - __main__ - INFO - Бот остановлен
+2026-10-11 18:09:19,168 - aiogram.dispatcher - INFO - Polling stopped
+2026-10-11 18:09:19,169 - aiogram.dispatcher - INFO - Polling stopped for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:12:11,824 - __main__ - INFO - ==================================================
+2026-10-11 18:12:11,824 - __main__ - INFO - Запуск Лид-Радар бота
+2026-10-11 18:12:11,824 - __main__ - INFO - ==================================================
+2026-10-11 18:12:11,826 - userbot - INFO - Загружено 10 каналов для мониторинга
+2026-10-11 18:12:12,219 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-10-11 18:12:12,220 - bot - INFO - Основной бот запущен
+2026-10-11 18:12:12,220 - aiogram.dispatcher - INFO - Start polling
+2026-10-11 18:12:12,293 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-10-11 18:12:12,564 - aiogram.dispatcher - INFO - Run polling for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:15:17,721 - aiogram.dispatcher - INFO - Polling stopped
+2026-10-11 18:15:17,722 - __main__ - ERROR - Критическая ошибка: 
+Traceback (most recent call last):
+  File "D:\Сайти\Music plugin\lead-radar-bot\main.py", line 37, in main
+    await asyncio.gather(
+    ...<2 lines>...
+    )
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 148, in run
+    await self.start()
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 56, in start
+    await self.client.start(phone=PHONE_NUMBER)
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 187, in _start
+    value = code_callback()
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 102, in code_callback
+    return input('Please enter the code you received: ')
+EOFError
+2026-10-11 18:15:17,724 - __main__ - INFO - Бот остановлен
+2026-10-11 18:15:17,725 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-10-11 18:15:17,725 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8902728328)
+2026-10-11 18:15:17,882 - aiogram.dispatcher - INFO - Polling stopped for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:15:38,235 - __main__ - INFO - ==================================================
+2026-10-11 18:15:38,235 - __main__ - INFO - Запуск Лид-Радар бота
+2026-10-11 18:15:38,235 - __main__ - INFO - ==================================================
+2026-10-11 18:15:38,238 - userbot - INFO - Загружено 10 каналов для мониторинга
+2026-10-11 18:15:38,635 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-10-11 18:15:38,635 - bot - INFO - Основной бот запущен
+2026-10-11 18:15:38,636 - aiogram.dispatcher - INFO - Start polling
+2026-10-11 18:15:38,673 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-10-11 18:15:38,912 - aiogram.dispatcher - INFO - Run polling for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:16:04,259 - aiogram.dispatcher - INFO - Polling stopped
+2026-10-11 18:16:04,260 - __main__ - ERROR - Критическая ошибка: 
+Traceback (most recent call last):
+  File "D:\Сайти\Music plugin\lead-radar-bot\main.py", line 37, in main
+    await asyncio.gather(
+    ...<2 lines>...
+    )
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 148, in run
+    await self.start()
+  File "D:\Сайти\Music plugin\lead-radar-bot\userbot.py", line 56, in start
+    await self.client.start(phone=PHONE_NUMBER)
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 187, in _start
+    value = code_callback()
+  File "C:\Users\Wqrning01\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telethon\client\auth.py", line 102, in code_callback
+    return input('Please enter the code you received: ')
+EOFError
+2026-10-11 18:16:04,262 - __main__ - INFO - Бот остановлен
+2026-10-11 18:16:04,266 - aiogram.event - INFO - Update id=374252916 is handled. Duration 25294 ms by bot id=8902728328
+2026-10-11 18:16:04,268 - aiogram.dispatcher - INFO - Polling stopped for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:16:29,393 - __main__ - INFO - ==================================================
+2026-10-11 18:16:29,393 - __main__ - INFO - Запуск Лид-Радар бота
+2026-10-11 18:16:29,394 - __main__ - INFO - ==================================================
+2026-10-11 18:16:29,974 - userbot - INFO - Загружено 10 каналов для мониторинга
+2026-10-11 18:16:30,370 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-10-11 18:16:30,371 - bot - INFO - Основной бот запущен
+2026-10-11 18:16:30,372 - aiogram.dispatcher - INFO - Start polling
+2026-10-11 18:16:30,544 - aiogram.dispatcher - INFO - Run polling for bot @vasyaradarbot id=8902728328 - 'Lead Radar'
+2026-10-11 18:16:31,757 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-10-11 18:16:32,259 - telethon.client.users - INFO - Phone migrated to 4
+2026-10-11 18:16:32,326 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2026-10-11 18:16:32,532 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-10-11 18:16:32,533 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-10-11 18:16:32,534 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-10-11 18:16:33,883 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
